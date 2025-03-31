@@ -1,3 +1,21 @@
 ---
+import appLinks from "../data/app-links.json";
+import Layout from "../layouts/Layout.astro";
 
+export function getStaticPaths() {
+    return appLinks.map(({slug, title, description, text}) => {
+        return {
+            params: {slug},
+            props: {title, description, text},
+        };
+    });
+}
+const {title, description, text} = Astro.props;
 ---
+<Layout
+        title={title}
+        description={description}
+>
+    {title}
+</Layout>
+
