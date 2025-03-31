@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "XJ9A27LQ34.world.stik.app"
+        ],
+        "components": [
+          {
+            "/": "/app-link/*"
+          }
+        ]
+    }
+  ]
+  }
+}

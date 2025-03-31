@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "drob",
+    "title": "Connect to a DROb",
+    "description": "Discover and explore interactive digital layers embedded in physical objects. Unlock exclusive content, social interactions, and real-time experiences. Welcome to the Drop Reality.",
+    "text": "To connect to this DROb, you need to have the STIK APP installed."
+  },
+  {
+    "slug": "scan",
+    "title": "Scan a DROb",
+    "description": "Discover and explore interactive digital layers embedded in physical objects. Unlock exclusive content, social interactions, and real-time experiences. Welcome to the Drop Reality.",
+    "text": "To scan a DROb, you need to have the STIK APP installed."
+  },
+  {
+    "slug": "user",
+    "title": "View a user",
+    "description": "Explore Drop Reality profiles, discover trending creators, and connect with the people shaping the future of social interaction beyond traditional platforms. Welcome to the Drop Reality.",
+    "text": "To view this user, you need to have the STIK APP installed."
+  },
+  {
+    "slug": "drob_contents_create",
+    "title": "Publish content on a DROb",
+    "description": "Post videos, photos, and stories directly onto a DROb. Turn everyday objects into shareable, viral experiences that bring communities together. Welcome to the Drop Reality.",
+    "text": "To connect to this DROb and post on it, you need to have the STIK APP installed."
+  },
+  {
+    "slug": "drob_contents",
+    "title": "View content from a DROb",
+    "description": "Access real-time, user-generated content linked to physical products. See what fans, creators, and influencers are sharing—and jump right in. Welcome to the Drop Reality.",
+    "text": "To connect to this DROb and view its posts, you need to have the STIK APP installed."
+  },
+  {
+    "slug": "drob_create",
+    "title": "Create a DROb",
+    "description": "Transform any physical object into a digital-first social hub. Build your own interactive space, engage communities, and shape the future of Drop Reality.",
+    "text": "To create a DROb, you need to have the STIK APP installed."
+  },
+  {
+    "slug": "posts",
+    "title": "View a content",
+    "description": "Access real-time, user-generated content linked to physical objects on Drop Reality.",
+    "text": "To view this post, you need to have the STIK APP installed."
+  },
+  {
+    "slug": "home",
+    "title": "[DR] mini-APPS",
+    "description": "Unlock new experiences, giving objects new meaning and uses. Welcome to the Drop Reality.",
+    "text": "To use mini-APPS, you need to have the STIK APP installed."
+  },
+  {
+    "slug": "community",
+    "title": "Enter the Drop Reality, where everything is Social",
+    "description": "SCAN, CONNECT, CREATE, SHARE, CHAT, DROP, PLAY and more. Welcome to the Drop Reality.",
+    "text": "To enter to Drop Reality, you need to have the STIK APP installed."
+  }
+]

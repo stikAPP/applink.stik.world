@@ -1,0 +1,17 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "world.stik.app",
+            "sha256_cert_fingerprints": [
+                "88:63:59:E8:EF:3A:D8:DF:55:20:94:30:6F:ED:2C:4D:33:40:E2:B4:93:F1:CC:8A:60:48:3B:B7:99:05:CA:C1",
+                "32:84:E5:82:C2:CC:44:AD:98:61:73:B2:82:1F:CC:E2:1E:42:A1:37:BD:FE:80:CC:8A:9E:51:AE:0F:4F:D7:6D",
+                "AF:E8:9A:CE:C6:12:3E:2D:A4:B5:BB:5C:4F:40:6D:47:DE:5F:C8:2E:21:C1:24:D8:BD:5C:30:86:8E:52:8E:B4",
+                "4F:05:9C:63:3B:0C:67:98:E5:EA:A3:A9:C8:CF:79:5B:55:AA:56:EC:DB:EB:BA:1B:5A:A0:AC:B0:6A:EB:DE:04"
+            ]
+        }
+    }
+]
