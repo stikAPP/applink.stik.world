@@ -1,6 +1,7 @@
 ---
 import appLinks from "../data/app-links.json";
 import Layout from "../layouts/Layout.astro";
+import Content from "../components/Content.astro";
 
 export function getStaticPaths() {
     return appLinks.map(({slug, title, description, text}) => {
@@ -16,6 +17,6 @@ const {title, description, text} = Astro.props;
         title={title}
         description={description}
 >
-    {title}
+    <Content title={title} text={text} />
 </Layout>
 

@@ -1,0 +1,58 @@
+---
+interface Props {
+    title: string;
+    description: string;
+    image?: string;
+}
+let siteUrl = Astro.site.href;
+let {title, description, image} = Astro.props;
+let robots = '';
+---
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name='robots' content={`max-image-preview:large${robots}`}/>
+<title>{title}</title>
+<meta name="description" content={description ?? 'Make your favorite objects a story to share'}>
+<meta name="keywords" content="">
+<meta name="title" content={title}>
+<meta name="distribution" content="global">
+<meta name="resource-type" content="document">
+<meta name="date" content="2024-07-25T09:46:14+00:00"/>
+<meta name="application-name" content="STIK APP">
+<meta name="author" content="STIK"/>
+<meta property="og:locale" content=es>
+<meta property="og:type" content="website">
+<meta property="og:title" content={title}>
+<meta property="og:description" content={description ?? 'Make your favorite objects a story to share'}/>
+<meta property="og:url" content={Astro.url.href}>
+<meta property="og:site_name" content="STIK APP">
+<meta property="og:image"
+      content={image ? `${siteUrl}${image.replace('/images/', 'images/')}` : `${siteUrl}images/share.jpg?v=2`}>
+<meta property="og:image:width" content="793">
+<meta property="og:image:height" content="638">
+<meta name="DC.Title" content="STIK APP">
+<meta name="DC.Creator" content="STIK APP">
+<meta name="DC.Description" content={description ?? 'Make your favorite objects a story to share'}>
+<meta name="DC.Date" content="2024-07-25T09:46:14+00:00">
+<meta name="DC.date.issued" content="2024-07-25T09:46:14+00:00">
+<meta name="DC.Type" content="Text">
+<meta name="DC.Language" content=es>
+<link rel="apple-touch-icon" sizes="57x57" href={`${siteUrl}favicon/apple-icon-57x57.png`}>
+<link rel="apple-touch-icon" sizes="60x60" href={`${siteUrl}favicon/apple-icon-60x60.png`}>
+<link rel="apple-touch-icon" sizes="72x72" href={`${siteUrl}favicon/apple-icon-72x72.png`}>
+<link rel="apple-touch-icon" sizes="76x76" href={`${siteUrl}favicon/apple-icon-76x76.png`}>
+<link rel="apple-touch-icon" sizes="114x114" href={`${siteUrl}favicon/apple-icon-114x114.png`}>
+<link rel="apple-touch-icon" sizes="120x120" href={`${siteUrl}favicon/apple-icon-120x120.png`}>
+<link rel="apple-touch-icon" sizes="144x144" href={`${siteUrl}favicon/apple-icon-144x144.png`}>
+<link rel="apple-touch-icon" sizes="152x152" href={`${siteUrl}favicon/apple-icon-152x152.png`}>
+<link rel="apple-touch-icon" sizes="180x180" href={`${siteUrl}favicon/apple-icon-180x180.png`}>
+<link rel="icon" type="image/svg+xml" href={`${siteUrl}favicon/favicon.svg`}>
+<link rel="icon" type="image/png" sizes="192x192" href={`${siteUrl}favicon/android-icon-192x192.png`}>
+<link rel="icon" type="image/png" sizes="32x32" href={`${siteUrl}favicon/favicon-32x32.png`}>
+<link rel="icon" type="image/png" sizes="96x96" href={`${siteUrl}favicon/favicon-96x96.png`}>
+<link rel="icon" type="image/png" sizes="16x16" href={`${siteUrl}favicon/favicon-16x16.png`}>
+<link rel="manifest" href={`${siteUrl}favicon/manifest.json`}>
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content={`${siteUrl}favicon/ms-icon-144x144.png`}>
+<meta name="theme-color" content="#ffffff">
+<link rel="sitemap" href={`${siteUrl}sitemap-index.xml`}/>

@@ -1,0 +1,105 @@
+
+:root {
+    --font-family: 'Montserrat';
+    --color: #212529;
+    --stik-color: #000F1E;
+    --stik-yellow-color: #FFD600;
+    --stik-success-color: #06DB29;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+footer {
+    background-color: var(--stik-color);
+    color: white;
+    padding: 1rem 0;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    opacity: 1;
+    transition: opacity 0.3s linear;
+}
+
+a:hover {
+    opacity: 0.6;
+    transition: opacity 0.3s linear;
+}
+
+.container-fluid {
+    margin: 0 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.d-flex > div {
+    flex-basis: auto;
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+.mt-3 {
+    margin-top: 2rem;
+}
+
+.text-white {
+    color: white;
+}
+
+.mx-auto {
+    margin: 0 auto;
+}
+
+.d-block {
+    display: block;
+}
+
+.justify-start {
+    justify-content: start;
+}
+
+.footer__nav {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 2rem;
+}
+
+.footer__nav > a {
+    display: block;
+    color: white;
+    flex-basis: auto;
+    width: fit-content;
+    padding: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.logo {
+    background-color: var(--stik-yellow-color);
+    border-radius: .6rem;
+    display: block;
+    height: 50px;
+    padding: 10px;
+    width: 50px;
+}
+
+.logo--lg {
+    width: 80px;
+    height: 80px;
+}

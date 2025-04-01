@@ -1,0 +1,6 @@
+@media (min-width: 400px) {
+    .footer__nav {
+        display: flex;
+    }
+
+}

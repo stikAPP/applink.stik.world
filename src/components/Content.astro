@@ -1,0 +1,43 @@
+---
+const {title = 'STIK', text = 'You need to have the STIK APP installed'} = Astro.props;
+---
+<div class="container-fluid text-center">
+    <div class="d-flex">
+        <div>
+            <div class="">
+                <h1 class="fs-4 mb-4">{title}</h1>
+                <p>{text}</p>
+                <div>If you already have it installed, visit this page on the device where you have the app. If not, you can download it using the following links:</div>
+            </div>
+            <div class="d-flex">
+                <div class="mt-3">
+                    <a href="https://apps.apple.com/us/app/stik-app/id6503289533?platform=iphone"
+                       aria-label="Download STIK APP on App Store"
+                       target="_blank">
+                        <img src="/images/hFalKC3P-STORE_APPLE.webp" class="img-fluid d-block mx-auto"
+                             alt="Download STIK APP on App Store">
+                    </a>
+                </div>
+                <div class="mt-3">
+                    <a href="https://play.google.com/store/apps/details?id=world.stik.app"
+                       aria-label="Download STIK APP on Google Play"
+                       class="w-100 h-100" target="_blank">
+                        <img src="/images/mJKzk3nB-STORE_GOOGLE-PLAY.webp" class="img-fluid d-block mx-auto"
+                             alt="Download STIK APP on Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mt-3">
+    <figure class="video-promo-stik container mx-auto text-center">
+        <video
+                autoplay
+                loop
+                muted
+                playsinline
+                src="/videos/stik_Are-you-going-to-miss-it.mp4"
+                poster="/videos/posters/stik_Are-you-going-to-miss-it.webp"></video>
+    </figure>
+</div>
