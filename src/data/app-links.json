@@ -52,5 +52,11 @@
     "title": "Enter the Drop Reality, where everything is Social",
     "description": "SCAN, CONNECT, CREATE, SHARE, CHAT, DROP, PLAY and more. Welcome to the Drop Reality.",
     "text": "To enter to Drop Reality, you need to have the STIK APP installed."
+  },
+  {
+    "slug": "reaction_show",
+    "title": "View a reaction",
+    "description": "Access real-time, user-generated reaction linked to physical objects on Drop Reality.",
+    "text": "To view this reaction, you need to have the STIK APP installed."
   }
 ]
